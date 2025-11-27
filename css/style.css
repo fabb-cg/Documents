@@ -1,0 +1,75 @@
+* 
+
+
+.card {
+background: rgb(237, 203, 203);
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+transition: 0.3s;
+overflow: hidden;
+}
+
+
+.card img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
+
+
+.card:hover {
+transform: scale(1.03);
+}
+
+
+.card .info {
+padding: 15px;
+}
+
+
+.card h3 {
+margin-bottom: 10px;
+}
+
+
+.precio {
+font-weight: bold;
+color: #7899e6;
+}
+
+
+.form {
+width: 60%;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+
+.form input,
+.form textarea {
+padding: 10px;
+border-radius: 8px;
+border: none;
+}
+
+
+.form button {
+padding: 12px;
+border: none;
+background: #4b7bec;
+color: white;
+cursor: pointer;
+border-radius: 8px;
+font-size: 16px;
+}
+
+
+footer {
+background: #4b7bec;
+padding: 15px;
+text-align: center;
+color: white;
+margin-top: 30px;
+}

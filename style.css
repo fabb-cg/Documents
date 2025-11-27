@@ -1,0 +1,147 @@
+/* FUENTE GENERAL */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0f14;
+    color: #f2f2f2;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #89c2ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #27b7ff;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    background: linear-gradient(135deg, #1d3557, #457b9d);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #00d4ff;
+    color: #0d0f14;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #ffffff;
+    transform: scale(1.08);
+}
+
+/* PRODUCTOS */
+.productos-section {
+    text-align: center;
+    padding: 80px 25px;
+}
+
+.productos-section h2 {
+    font-size: 2.6rem;
+    color: #00d4ff;
+    text-shadow: 0 0 10px #00d4ff;
+}
+
+.subtitulo {
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.productos-img {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 212, 255, 0.4);
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Contacto */
+.contacto {
+    text-align: center;
+    padding: 70px 20px;
+    background: #11151c;
+}
+
+.redes {
+    margin-top: 30px;
+}
+
+.red {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.insta {
+    background: linear-gradient(45deg, #ff0080, #ff8c00);
+    color: #fff;
+}
+
+.tiktok {
+    background: #00f2ea;
+    color: #000;
+}
+
+.red:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b0d11;
+    color: #9f9f9f;
+    font-size: 0.9rem;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
